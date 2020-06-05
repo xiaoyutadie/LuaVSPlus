@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{3A73D9FB-F89A-40C6-8D0A-D294362B6C6D}") = "RemoteDebug", "RemoteDebug.luaproj", "{0F93443F-05D9-4C1D-ADF6-34AAD9FD21AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F93443F-05D9-4C1D-ADF6-34AAD9FD21AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F93443F-05D9-4C1D-ADF6-34AAD9FD21AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F93443F-05D9-4C1D-ADF6-34AAD9FD21AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F93443F-05D9-4C1D-ADF6-34AAD9FD21AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {563F9BDF-7816-42AC-BC60-8FCCCEE4E113}
+	EndGlobalSection
+EndGlobal

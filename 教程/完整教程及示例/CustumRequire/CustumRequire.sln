@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{3A73D9FB-F89A-40C6-8D0A-D294362B6C6D}") = "CustumRequire", "CustumRequire.luaproj", "{A5172C77-D6BA-4107-A43B-E16EAC1F0C77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5172C77-D6BA-4107-A43B-E16EAC1F0C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5172C77-D6BA-4107-A43B-E16EAC1F0C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5172C77-D6BA-4107-A43B-E16EAC1F0C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5172C77-D6BA-4107-A43B-E16EAC1F0C77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3A6C2C7-2EA2-44AF-A9A9-B9276ED7A152}
+	EndGlobalSection
+EndGlobal

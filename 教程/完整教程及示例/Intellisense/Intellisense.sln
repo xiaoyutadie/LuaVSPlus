@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{3A73D9FB-F89A-40C6-8D0A-D294362B6C6D}") = "Intellisense", "Intellisense.luaproj", "{AE0178B8-9E85-4F10-9197-5C795987B930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE0178B8-9E85-4F10-9197-5C795987B930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0178B8-9E85-4F10-9197-5C795987B930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0178B8-9E85-4F10-9197-5C795987B930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0178B8-9E85-4F10-9197-5C795987B930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EF1B3D6-9B7E-4463-A225-50413034BD42}
+	EndGlobalSection
+EndGlobal

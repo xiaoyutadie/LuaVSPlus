@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <CustomProjectExtensionsPath>$(LocalAppData)\VisualStudioExtend\Lua\%LCID%\</CustomProjectExtensionsPath>
+    <DefaultProjectExtensionsPath>$(LocalAppData)\VisualStudioExtend\Lua\2052\</DefaultProjectExtensionsPath>
+    <ProjectGuid>ae0178b8-9e85-4f10-9197-5c795987b930</ProjectGuid>
+  </PropertyGroup>
+  <ImportGroup>
+    <Import Project="$(CustomProjectExtensionsPath)LuaScript.props" Condition="Exists('$(CustomProjectExtensionsPath)LuaScript.props')" />
+    <Import Project="$(DefaultProjectExtensionsPath)LuaScript.props" Condition="Exists('$(CustomProjectExtensionsPath)LuaScript.props') == false" />
+    <Import Project="$(CustomProjectExtensionsPath)LuaScript.targets" Condition="Exists('$(CustomProjectExtensionsPath)LuaScript.targets')" />
+    <Import Project="$(DefaultProjectExtensionsPath)LuaScript.targets" Condition="Exists('$(CustomProjectExtensionsPath)LuaScript.targets') == false" />
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <ProjectAPI>Cocos2dx</ProjectAPI>
+    <RefreshFile>*.lua</RefreshFile>
+    <SearchPath>$(MSBuildProjectDirectory)</SearchPath>
+    <CommentFile>.\api</CommentFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Script Include="api\CommonAPI.lua" />
+    <Script Include="IntellisenseWithSource\IntellisenseWithSource.lua" />
+    <Script Include="IntellisenseWithSource\TestA\Test.lua" />
+    <Script Include="IntellisenseWithSource\TestB\Test.lua" />
+    <Script Include="Intellisense\ClassA.lua" />
+    <Script Include="Intellisense\ClassB.lua" />
+    <Script Include="Intellisense\ClassC.lua" />
+    <Script Include="Intellisense\GlobleTable.lua" />
+    <Script Include="Intellisense\GlobleTableB.lua" />
+    <Script Include="main.lua" />
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
